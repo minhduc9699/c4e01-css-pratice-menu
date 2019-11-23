@@ -8,9 +8,10 @@
 }
 
 .category {
-  width: 30%;
+  width: 25%;
   height: 265px;
   padding: 10px;
+  margin: 20px;
 }
 
 .category-title {
@@ -27,4 +28,11 @@
 .item-price {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(247, 99, 92);
 }
